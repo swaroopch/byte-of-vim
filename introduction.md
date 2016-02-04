@@ -21,6 +21,7 @@ Let's see some random examples to compare Vim with your current choice of editor
 > NOTE: Don't worry too much about the details of the Vim commands here, the point here is to enlighten you with the possibilities, not to start explaining how these things work. That is what the rest of the book is for.
 
 | Edit | In Vim | In your editor |
+| ---- | ------ | -------------- |
 | How do you move the cursor down by 7 lines? | Press `7j` | |
 | How do you delete a word? Yes, a "word" | Press `dw` | |
 | How do you search the current file for the current word that the cursor is at? | Press `*` | |
