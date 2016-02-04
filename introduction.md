@@ -34,9 +34,17 @@ Let's see some random examples to compare Vim with your current choice of editor
 | How to see colors for different parts of your code? | Run `:syntax on`. If it doesn't recognize the language properly, use `set ft=python` for example. | |
 | How to hide different parts of the file so that you can concentrate on only one part at a time? | Run `:set foldmethod=indent` assuming your file is properly indented. | |
 | How to open multiple files in tabs? | Use `:tabedit <file>` to open multiple files in "tabs" (just like browser tabs), and use `gt` to switch between tabs | |
-| You use some words frequently in your document and wish there was a way that it could be quickly filled in the next time you use the same word? | Press `ctrl-n` to see the list of "completions" for the current word, based on all the words that you have used in the current document. Alternatively, use `:ab mas Maslow's hierarchy of needs` to expand the abbreviation automatically when you type `m a s <space>`. | |
+| You use some words frequently in your document and wish there was a way that it could be quickly filled in the next time you use the same word? | Press `ctrl-n` to see the list of "completions" for the current word, based on all the words that you have used in the current document. Alternatively, use `:ab mas Maslow's hierarchy of needs` to expadn the abbreviation automatically when you type `m a s <space>`. | |
 | You have some data where only the first 10 characters in each line are useful and the rest is no longer useful for you. How do you get only that data? | Press `ctrl-v`, select the text and press `y` to copy the selected rows and columns of text. | |
-| What if you received a document from someone which is all in capitals, find it irritating and want to convert it to lower case? | (1) In Vim, run the following: `:for i in range(0, line('$')) call setline(i, tolower(getline(i))) endfor`.  Don't worry, details will be explored in later chapters. <br> (2) A more succinct way would be to run `:%s#\\(.\\)#\\l\\1#g`, but the first way would be simpler. <br> (3) A third way would be to select all the text using `1GVG` and then using the `u` operator to convert the selection to lowercase. | |
+| What if you received a document from soneone which is all in cas, find it irritating and want to convert it to lower case? | In Vim, run the following: \
+```vim
+:for i in range(0, line('$'))
+:  call setline(i, tolower(getline(i)))
+:endfor
+```
+Don't worry, details will be explored in later chapters. A more succinct way would be to run `:%s#\\(.\\)#\\l\\1#g`, but the first way would be simpler.
+
+A third way would be to select all the text using `1GVG` and then using the `u` operator to convert the selection to lowercase. | |
 
 Phew. Are you convinced yet?
 
