@@ -1,0 +1,35 @@
+# Introduction
+
+## What is Vim?
+
+Vim is a computer program used for writing any kind of text, whether it is your shopping list, a book, or software code.
+
+What makes Vim special is that it is one of those few software which is both **simple and powerful**.
+
+Simple means it is easy to get started with. Simple means that it has a minimalistic interface that helps you to concentrate on your main task - writing. Simple means it is built around few core concepts that helps you learn deeper functionality easily.
+
+Powerful means getting things done faster, better and easier. Powerful means making not-so-simple things possible. Powerful does not mean it has to be complicated. Powerful means following the paradigm of **"Minimal effort. Maximal effect."**
+
+## What can Vim do?
+
+I can hear you say, "So it's a text editor. What's the big deal anyway?"
+
+Well, a lot.
+
+Let's see some random examples to compare Vim with your current choice of editor. The point of this exercise is for you to answer the question *"How would I do this in the editor I currently use?"* for each example.
+
+> NOTE: Don't worry too much about the details of the Vim commands here, the point here is to enlighten you with the possibilities, not to start explaining how these things work. That is what the rest of the book is for.
+
+| Edit | In Vim | In your editor |
+| How do you move the cursor down by 7 lines? | Press `7j` | |
+| How do you delete a word? Yes, a "word" | Press `dw` | |
+| How do you search the current file for the current word that the cursor is at? | Press `*` | |
+| How to find and replace only in lines 50-100? | Run `:50,10s/old/new/g` | |
+| How to view two different parts of the same file simultaneously? | Run `:sp` to 'split' the view | |
+| The cursor is at a file name, how to jump to that file? | Press `gf` (which means 'g'o to 'f'ile) | |
+| Switch to a better theme? | Run `:colorscheme desert` to choose the `desert` theme | |
+| How to map `ctrl-s` to save the file? | Run `:nmap <c-s> :w<CR>` (`<CR>` means 'c'arriage 'r'eturn, i.e. the enter key) | |
+| How to save the current set of open files & settings so that you can restart the session later? | Run `:mksession ~/session.vim` and then open Vim next time with `vim -S ~/session.vim` | |
+| How to see colors for different parts of your code? | Run `:syntax on`. If it doesn't recognize the language properly, use `set ft=python` for example. | |
+| How to hide different parts of the file so that you can concentrate on only one part at a time? | Run `:set foldmethod=indent` assuming your file is properly indented. | |
+| How to open multiple files in tabs? | Use `:tabedit <file>` to open multiple files in "tabs" (just like browser tabs), and use `gt` to switch between tabs | |
