@@ -22,7 +22,7 @@ Let's see some random examples to compare Vim with your current choice of editor
 
 | Edit | In Vim | In your editor |
 | ---- | ------ | -------------- |
-| How do you move the cursor down by 7 lines? | Press `7j` | |
+| How do you move the cursor down by 7 lines? | Press `7j` | (Fill this column) |
 | How do you delete a word? Yes, a "word" | Press `dw` | |
 | How do you search the current file for the current word that the cursor is at? | Press `*` | |
 | How to find and replace only in lines 50-100? | Run `:50,10s/old/new/g` | |
@@ -34,3 +34,22 @@ Let's see some random examples to compare Vim with your current choice of editor
 | How to see colors for different parts of your code? | Run `:syntax on`. If it doesn't recognize the language properly, use `set ft=python` for example. | |
 | How to hide different parts of the file so that you can concentrate on only one part at a time? | Run `:set foldmethod=indent` assuming your file is properly indented. | |
 | How to open multiple files in tabs? | Use `:tabedit <file>` to open multiple files in "tabs" (just like browser tabs), and use `gt` to switch between tabs | |
+| You use some words frequently in your document and wish there was a way that it could be quickly filled in the next time you use the same word? | Press `ctrl-n` to see the list of "completions" for the current word, based on all the words that you have used in the current document. Alternatively, use `:ab mas Maslow's hierarchy of needs` to expadn the abbreviation automatically when you type `m a s <space>`. | |
+| You have some data where only the first 10 characters in each line are useful and the rest is no longer useful for you. How do you get only that data? | Press `ctrl-v`, select the text and press `y` to copy the selected rows and columns of text. | |
+| What if you received a document from soneone which is all in cas, find it irritating and want to convert it to lower case? | In Vim, run the following: \
+```vim
+:for i in range(0, line('$'))
+:  call setline(i, tolower(getline(i)))
+:endfor
+```
+Don't worry, details will be explored in later chapters. A more succinct way would be to run `:%s#\\(.\\)#\\l\\1#g`, but the first way would be simpler.
+
+A third way would be to select all the text using `1GVG` and then using the `u` operator to convert the selection to lowercase. | |
+
+Phew. Are you convinced yet?
+
+In these examples, you can see the power of Vim in action. Any other editor would make it insanely hard to achieve the same level of functionality. And yet, amazingly, all this power is made as understandable as possible.
+
+Notice that we didn't use the mouse even once during these examples! This is a good thing. Count how many times you shift your hand between the keyboard and the mouse in a single day, and you'll realize why it is good to avoid it when possible.
+
+Don't be overwhelmed by the features here. The best part of Vim is that you don't need to know all of these features to be productive with it, you just need to know a few basic concepts. After learning those basic concepts, all the other features can be easily learned when you need them.
