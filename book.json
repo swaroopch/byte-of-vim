@@ -5,6 +5,7 @@
         "contactUrl": "http://www.swaroopch.com/contact/",
         "downloadUrl": "https://www.gitbook.com/book/swaroopch/byte-of-vim/details",
         "officialUrl": "http://vim.swaroopch.com/",
+        "pythonBookUrl": "http://python.swaroopch.com/",
         "sourceUrl": "https://github.com/swaroopch/byte-of-vim"
     }
 }
