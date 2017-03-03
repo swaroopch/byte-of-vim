@@ -57,7 +57,7 @@ Isn't that simple?
 
 Traditionally, the concept of modes is the most oft-cited reason by beginners on why they find Vim "confusing". I compare it to riding a bicycle - you'll trip a few times, but once you've got the hang of it, you'll wonder what the fuss was all about.
 
-So why does Vim have modes? To make things as simple as possible, even though it's usage may seem "strange" at first.
+So why does Vim have modes? To make things as simple as possible, even though its usage may seem "strange" at first.
 
 What do I mean by that? Let's take an example - one of the key goals in Vim is to make it fully accessible from the keyboard without ever having to need to use a mouse (you can still use the mouse if you want to but it is strictly optional). In such a scenario, how would you distinguish between the text you want to write, and the commands that you want to run? Vim's solution is to have a "normal" mode where you can execute commands and an "insert" mode where you are simply writing text. You can switch between the two modes any time. For example, pressing `i` switches Vim to insert mode, and pressing `<Esc>` switches Vim back to normal mode.
 
