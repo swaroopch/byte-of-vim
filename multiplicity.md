@@ -41,7 +41,7 @@ After writing this text, run `:set foldmethod=indent`, position your cursor on t
 Basic commands are `zo` and `zc` where we can open and close the fold respectively. You can use `za` to 'a'lternate between opening and closing a fold respectively. You can make it even easier by using the spacebar (in normal mode) to open and close a fold:
 
 ``` viml
-:nmap &lt;space&gt; za
+:nmap <space> za
 ```
 
 Folding is a huge topic on its own with more ways of folding (manual, marker, expression) and various ways of opening and closing hierarchies of folds, and so on. See `:help folding` for details.
