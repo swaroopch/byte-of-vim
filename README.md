@@ -6,6 +6,12 @@ The first part of this book is meant for new users who want to understand what V
 
 The second part of this book is for people who already know how to use Vim and want to learn about features that make Vim so powerful, such as windows and tabs, personal information management, making it a programmer's editor, how to extend Vim with your own plugins, and more.
 
+## Status: Incomplete
+
+Please note that the conversion of the book to this Markdown sources is incomplete!
+The original PDF is at http://files.swaroopch.com/vim/byte_of_vim_v051.pdf - unfortunately the original sources are lost.
+I welcome your contributions to complete the porting of text to this repo.
+
 ## Who reads A Byte of Vim? {#who-reads}
 
 > Thanks to A Byte of Vim, I have learnt how to use vim. Thank you very much for this excellent book! ;)
