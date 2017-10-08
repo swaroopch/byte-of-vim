@@ -8,9 +8,11 @@ The second part of this book is for people who already know how to use Vim and w
 
 ## Status: Incomplete
 
-Please note that the conversion of the book to this Markdown sources is incomplete!
+Please note that the conversion of the book to this Markdown sources is *incomplete*!
+
 The original PDF is at http://files.swaroopch.com/vim/byte_of_vim_v051.pdf - unfortunately the original sources are lost.
-I welcome your contributions to complete the porting of text from the original PDF to this book sources at https://github.com/swaroopch/byte-of-vim .
+
+I welcome your contributions to complete the porting of text from the original PDF to this new book's sources at https://github.com/swaroopch/byte-of-vim .
 
 ## Who reads A Byte of Vim? {#who-reads}
 
