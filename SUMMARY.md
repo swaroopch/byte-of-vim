@@ -9,7 +9,6 @@
 * [Moving Around](moving_around.md)
 * [Help](help.md)
 * [Editing Basics](editing_basics.md)
-* [More Editing](more_editing.md)
 * [Multiplicity](multiplicity.md)
 * [Personal Information Management](pim.md)
 * [Scripting](scripting.md)
