@@ -25,7 +25,7 @@ Let's see some random examples to compare Vim with your current choice of editor
 | How do you move the cursor down by 7 lines? | Press `7j` | (Fill this column) |
 | How do you delete a word? Yes, a "word" | Press `dw` | |
 | How do you search the current file for the current word that the cursor is at? | Press `*` | |
-| How to find and replace only in lines 50-100? | Run `:50,10s/old/new/g` | |
+| How to find and replace only in lines 50-100? | Run `:50,100s/old/new/g` | |
 | How to view two different parts of the same file simultaneously? | Run `:sp` to 'split' the view | |
 | The cursor is at a file name, how to jump to that file? | Press `gf` (which means 'g'o to 'f'ile) | |
 | Switch to a better theme? | Run `:colorscheme desert` to choose the `desert` theme | |
