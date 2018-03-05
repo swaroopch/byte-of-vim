@@ -130,7 +130,7 @@ Notice we're already back in the normal mode and didn't need to press `<Esc>`.
 
 There's a bigger version of `r` called `R` which will replace continuous characters.
 
-1. Move the cursor to the 'i' in sinner.
+1. Move the cursor to the 'i' in dinner.
 2. Press `R`
 3. Type `app` (the word now becomes 'dapper')
 4. Press `<Esc>` to switch back to normal mode.
