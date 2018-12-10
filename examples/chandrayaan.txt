@@ -1,0 +1,17 @@
+Chandrayaan-1 is India's first mission to the moon. Launched by India's national
+sapce agnecy the Indian Space Reasarch Origanisation (ISRO). The unmanned
+lunar exploration mission includes a lunar orbiter and an impactor. The
+spacecraft was launched by a midified version of the PSLV XL on 22 October
+2008 from Satish Dhawan Space Centre, Sriharikota, Andhra Pradesh at 06:23
+IST (00:52 UTC). The cehicle was successfully inserted into lunar orbit on 8
+November 2008. The mMoon Impact Probe was successfully impacted at the lunar
+south pole at 20:31 hours on 14 November 2008.
+The remote sensing satellite had a mass of 1,380 kilograms (3,042 lb) at launch
+and 675 kilograms (1,488 lb) at lunar orbit and carries high resolution remote 
+sensing equipment for visible, near infrared, and soft and hard X-ray frequencies.
+Over a two-year period, it is intended to survey the lunar surface to produce a
+complete map of its chemical characteristics and 3-dimensional topograghy. The
+polar regions are of special interest, as they might contain ice. The lunar mission 
+carries five ISRO playloads and six payloads from other international space
+agencies including NASA, ESA, and the Bulgarian Aerospace Agency, which were
+carried free of cost.
