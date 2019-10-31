@@ -226,7 +226,7 @@ Or if you want the simpler approach of going back by 5 changes: `:undo 5`.
 
 You can view the undo tree using `:undolist`.
 
-See :help `:undolist` for the explanation of the output from this command.
+See `:help undolist` for the explanation of the output from this command.
 
 See `:help undo-redo` and `:help usr_32.txt` for more details.
 
