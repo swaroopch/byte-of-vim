@@ -133,7 +133,7 @@ You should see a number printed.
 
 Function names have to start with an upper case. This is to differentiate that built-in functions start with a lower case and user-defined functions start with an upper case.
 
-f you want to simply "call" a function to run but not display the contents, you can use `:call CurrentLineLength()`
+If you want to simply "call" a function to run but not display the contents, you can use `:call CurrentLineLength()`
 
 ## Decisions
 
